@@ -71,3 +71,4 @@ with gr.Blocks(css=css) as UI:
     gc.gr_components()
 UI.launch(server_name="0.0.0.0", server_port=port)
 
+#UI.launch()

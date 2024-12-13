@@ -1,6 +1,6 @@
 import gradio as gr
-from tab1 import tab1_func as t1
-from tab2 import tab2_func as t2
+#from tab1 import tab1_func as t1
+#from tab2 import tab2_func as t2
 from tab3 import tab3_func as t3
 from tab4 import tab4_func as t4
 from tab5 import tab5_func as t5
