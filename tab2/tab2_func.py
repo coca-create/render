@@ -3,7 +3,7 @@ import tempfile
 import json
 from pydub import AudioSegment
 import gradio as gr
-from faster_whisper import WhisperModel
+#from faster_whisper import WhisperModel
 import zipfile
 from docx import Document
 import re
