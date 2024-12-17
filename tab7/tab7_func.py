@@ -460,7 +460,7 @@ def correct_srt_format_from_text(text):
             corrected_content.pop()
 
     # Ensure each subtitle block is separated by exactly one empty line
-    final_content = "WEBVTT\n\n" + "\n\n".join("\n".join(block) for block in zip(*[iter(corrected_content)]*3))
+    final_content = "\n\n".join("\n".join(block) for block in zip(*[iter(corrected_content)]*3))
     #final_content = "\n\n".join("\n".join(corrected_content[i:i+4]) for i in range(0, len(corrected_content), 4))
     return final_content
 
